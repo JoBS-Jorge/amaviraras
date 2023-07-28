@@ -27,12 +27,12 @@ const Usuarios = () => {
     return (
         
         <main className="bg-gradient-linear flex min-h-screen items-center justify-between p-0">
-            <div className="flex">
+            <section className="flex">
                 <Upbar></Upbar>
                 <Sidebar></Sidebar>
-                <div className="p-1 justify-start">
-                    <h1>Lista de usuários do sistema</h1>
-
+                <section className="m-32 justify-start text-white">
+                    <h1 className='font-bold text-3xl'>LISTAGEM DE USUÁRIOS</h1>
+                        <br/>
                         <table><tr><th>ID:</th><th>Nome:</th><th>Permissão</th></tr></table>
                         {meuArrayUsuarios.map((usuario) => (
                             <div>
@@ -47,9 +47,9 @@ const Usuarios = () => {
                             </div>
                         ))}
                     
-                    <br/><br/><Link href="/">Voltar</Link>
-                </div>
-            </div>                     
+                    <br/><br/><Link href="/" className="">Voltar</Link>
+                </section>
+            </section>                     
         </main>
 
     )

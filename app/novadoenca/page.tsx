@@ -11,12 +11,14 @@ const Inclusao = () => {
     return (
         
             <main className="bg-gradient-linear flex min-h-screen items-center justify-between p-0">
-                <div className="text-white">
+                <section className="text-white flex">
                     <Upbar></Upbar>
                     <Sidebar></Sidebar>
 
-                    <div className='items-center m-20'>
+                    <div className='items-center m-10'>
                         <div className='m-20 items-center'>
+                            <h1 className='font-bold text-3xl'>CADASTRAR NOVA DOENÇA</h1>
+                            <br/>
                             <div>CID:</div>
                                 <div>
                                     <input type="text" name="CID" id="idCID" className='text-gray-600'/><br/>
@@ -42,7 +44,7 @@ const Inclusao = () => {
                     
                         <ToastContainer />                    
                     </div>                    
-                </div>
+                </section>
             </main>         
 
     )
