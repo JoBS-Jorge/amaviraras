@@ -1,0 +1,58 @@
+{
+    "doencas": [
+    {
+        "cid": "1122",
+        "nome": "Lupus",
+        "descricao": "Doença inflamatória crônica de origem autoimune. Pode ser cutâneo ou sistêmico...", 
+        "criticidade": 2,
+        "temTratamento": true,
+        "srcImagem": "https://www.mymedfarma.com/files/images/gallery/CAPD_systemic_lupus_erythematosus_1311518012015.jpg"
+    },
+    {
+        "cid": "2233",
+        "nome": "Angioedema",
+        "descricao": "Doença que apresenta inchaço de áreas de tecido subcutâneo que, por vezes afeta a face e a garganta...", 
+        "criticidade": 3,
+        "temTratamento": true,
+        "srcImagem": "https://d8tzmbmuvomgp.cloudfront.net/medialibrary/pce-content/the-exchange/images/266/hae-exchange-post.png"
+    },
+    {
+        "cid": "6644",
+        "nome": "Esclerose Lateral Amiotrófica",
+        "descricao": "Doença que afeta a o sistema nervoso central de forma degenerativa e progressiva...", 
+        "criticidade": 1,
+        "temTratamento": false,
+        "srcImagem": "https://biosom.com.br/blog/wp-content/uploads/2017/08/Stephen-hawking-Amyotrophic-lateral-sclerosis.jpg"
+    },
+    {
+        "cid": "884544",
+        "nome": "HPTEC",
+        "descricao": "Doença rara que ocorre quando um trombo se aloja nos pulmões, dificultando assim a circulção sanguinea...", 
+        "criticidade": 1,
+        "temTratamento": false,
+        "srcImagem": "https://pb-brasil247.storage.googleapis.com/pb-b247gcp/swp/jtjeq9/media/20180702110740_45c29a397f2a1bb4efef2b133ee570b384030c95726f73587641a8619da381ed.jpeg"
+    }
+],
+    "usuario": [
+    {
+        "id": 1,
+        "nome": "Jorge",
+        "permissao": "ADMIN"
+    },
+    {
+        "id": 2,
+        "nome": "Ellen",
+        "permissao": "Gestor"
+    },
+    {
+        "id": 3,
+        "nome": "Manuela",
+        "permissao": "Gestor"
+    },
+    {
+        "id": 4,
+        "nome": "Ludo",
+        "permissao": "Associado"
+    }
+    ]
+}
